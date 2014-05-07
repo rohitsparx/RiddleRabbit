@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1 , maximum-scale=1, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+        <title>Riddle Rabbit</title>
+
+        <link  rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+        <link  rel="stylesheet" href="assets/css/reset.css">
+        <link  rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/images/icon.png">
+
+        <script type="text/javascript" src="assets/js/lib/html5Preloader.js"></script>
+        <script type="text/javascript" src="assets/js/load-all-files.js"></script>
+
+        <script type="text/javascript" src="assets/js/lib/jquery.js"></script>
+        <script type="text/javascript" src="assets/js/lib/templating.js"></script>
+        <script type="text/javascript" src="assets/js/lib/audio-fx.js"></script>
+        <script type="text/javascript" src="assets/js/lib/lscache.js"></script>
+
+        <script type="text/javascript" src="assets/js/initialise.js"></script>
+        <script type="text/javascript" src="assets/js/local-storage.js"></script>
+        <script type="text/javascript" src="assets/js/panel.js"></script>
+        <script type="text/javascript" src="assets/js/load-data-set.js"></script>
+        <script type="text/javascript" src="assets/js/settings-panel.js"></script>
+        <script type="text/javascript" src="assets/js/questions.js"></script>
+        <script type="text/javascript" src="assets/js/scoreboard.js"></script>
+        <script type="text/javascript" src="assets/js/audios.js"></script>
+
+        <script type="text/javascript" src="assets/js/phonegap.js"></script>
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="main">
+                <div class="font-fix">Font fix</div>
+                <div class="font-fix font-fix-2">Font fix</div>
+                <div class="font-fix font-fix-3">Font fix</div>
+                <div class="game-wrapper">
+                    <div class="critical-thinking-link">
+                        <span>Riddle Rabbit&trade; K-1</span>
+                        <a href="http://www.criticalthinking.com" target="blank">www.CriticalThinking.com</a>
+                    </div>
+                    <div class="all-panels">
+
+                        <div id="HomeScreen" class="home-panel">
+                            <div class="app-logo-wrapper">
+                                <div id="GameTitles"></div>
+                                <script type="text/html" id="GameTitles_tmpl">
+                                    <a class="critical-logo" href="http://www.criticalthinking.com" target="blank"><img src="assets/images/critical-thinking-logo.png" alt="Critical Thinking home"  /></a>
+                                    <img class="riddle-rabbit-text" src="assets/images/riddle-rabbit-text.png" alt="Riddle Rabbit"/>
+                                    <div class="game-title-wrapper">
+                                        <div class="game-title"><%= data_set.title %></div>
+                                        <div class="section-names">
+                                            <span class="red">Math</span> - 
+                                            <span class="purple">Reading</span> - 
+                                            <span class="green">Science</span> - 
+                                            <span class="blue">Social Studies</span>
+                                        </div>
+                                    </div>
+                                    <a href="http://www.criticalthinking.com/can-you-find-me.html" target="blank" class="demo-details">
+                                        <span><%= data_set.id %></span>
+                                        <span><%= data_set.demo %></span>
+                                    </a>
+                                    </script>
+                                </div>
+                                <div class="start-riddle-wrapper">
+                                    <img class="start-riddle" src="assets/images/rabbit-pointing.png" alt="Riddle Rabbit"/>
+                                    <a href="#" data-show="QuestionsScreen" class="begin-riddle"><span>Begin Riddles</span></a>
+                                    <a href="#" class="volume" id="ToggleSound">volume control</a>
+                                </div>
+                                <div class="homescreen-options">
+                                    <a href="#" data-show="InformationScreen">Important Information</a>
+                                    <div class="homescreen-btns">
+                                        <a href="#" data-show="StartGameScreen" class="btn-blue">Home</a>
+                                        <a href="#" data-show="SettingsScreen" class="btn-purple">Settings</a>
+                                        <!--<a href="#" data-show="CloseScreen" class="btn-red">Close</a>-->
+                                    </div>
+                                    <a href="#" data-show="LicenseScreen" class="licence-btn">License Agreement</a>
+                                </div>
+                            </div>      
+
+                            <div id="SettingsScreen" class="setting-panel">
+
+                                <div class="settings-lightbox-wrapper" id="SettingsLightBox">
+                                    <div class="settings-lightbox">
+                                        You can only change order between attempts. <br>
+                                        Touch anywhere to return.
+                                    </div>
+                                </div>
+
+                                <h1>
+                                    <span class="heading">Riddle Rabbit <sup>TM</sup></span>
+                                    <a href="http://www.criticalthinking.com/can-you-find-me.html" target="blank" class="demo-details demo-id">03804 Demo</a>
+                                </h1>
+                                <h2>Settings</h2>
+                                <div class="settings-content">
+                                    <div class="sound-settings">
+                                        <span>Sound</span>
+                                        <a href="#" id="SoundOn" data-sound="true">On</a>
+                                        <a href="#" id="SoundOff" data-sound="false" class="off">Off</a>
+                                    </div>
+                                    <div class="riddle-order-settings">
+                                        <a href="#" id="OrderedOff" data-ordered="false">Riddles in mixed order (default)</a>
+                                        <a href="#" id="OrderedOn" data-ordered="true" class="off">Riddles organized by subject*</a>
+                                    </div>
+                                    <div class="subject-order-wrapper">
+                                        <ul class="subject-number">
+                                            <li>1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                        </ul>
+                                        <ul class="subject-order" id="subjectOrder">
+                                            <li data-subject="Sub1" class="red">Math Riddles</li>
+                                            <li data-subject="Sub2" class="purple">Reading Riddles</li>
+                                            <li data-subject="Sub3" class="green">Science Riddles</li>
+                                            <li data-subject="Sub4" class="blue">Social Studies Riddles</li>
+                                        </ul>
+                                        <div class="priority-setter-btns light" id="subjectOrderBtns">
+                                            <a href="#" class="up">Move Up</a>
+                                            <a href="#" class="down">Move Down</a>
+                                        </div>
+                                    </div>
+                                    <div class="order-change-instruction">
+                                        *Select a subject and use the arrows to rearrange the order.
+                                    </div>
+                                </div>
+                                <div class="btn-back-wrapper">
+                                    <a href="#" data-rel="back" class="btn-back">Back</a>
+                                </div>
+                            </div>    
+
+                            <div id="CloseScreen" class="close-panel">
+                                <div class="close-panel-content">
+                                    <h2>Are you sure you'd like to exit?</h2>
+                                    <div class="close-btn-set">
+                                        <a href="javascript:window.open(window.location, '_self').close();" id="ExitBtn" class="btn-red">Exit</a>
+                                        <a href="#" data-rel="back" class="btn-green">Return</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="StartGameScreen" class="panel">
+                                <h1>
+                                    <span class="heading padd-left">Riddle Rabbit <sup>TM</sup></span>
+                                    <a href="http://www.criticalthinking.com/can-you-find-me.html" target="blank" class="demo-details demo-id">03804 Demo</a>
+                                    <ul class="left-corner-links">
+                                        <li>
+                                            <a href="Javascript:void(0);"> User  </a> ~ 
+                                            <ul class="sub-menu">
+                                                <li><a href="#" data-show="ScoresScreen">Scores</a></li>
+                                                <li><a href="#" data-show="PrintInstructionsScreen">Print instructions</a></li>
+                                                <li><a href="#" data-show="SettingsScreen">Settings</a></li>
+                                                <!--<li><a href="#" data-show="CloseScreen">Close</a></li>-->
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#" data-show="RestartScreen"> Restart </a> ~ </li>
+                                        <li>
+                                            <a href="Javascript:void(0);"> About </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#" data-show="InformationScreen">About these Riddles</a></li>
+                                                <li><a href="#" data-show="OtherProductsScreen">Other products</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </h1>
+
+                                <div class="complete-message-section completed-on1" id="CompleteScreen" >
+                                    <div class="on-complete">
+                                        <img class="pointing-arrow" src="assets/images/pointing-arrow.png" alt="Click on this" />
+                                        <div class="complete-message">
+                                            <div class="message-info">
+                                                <span>To replay the <br> riddles, please select <br> Restart above. </span>
+                                            </div>
+                                            <img class="rabbit-pointing-left" src="assets/images/rabbit-pointing-left.png" alt="rabbit-pointing-left" />
+                                            <div class="complete-sign">
+                                                <span>Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="on-resume">
+                                        <img class="rabbit-pointing" src="assets/images/rabbit-pointing.png" alt="rabbit-pointing" />
+                                        <a class="begin-riddle" href="#" data-show="QuestionsScreen">
+                                            <span><em id="AttemptStatus" >Test</em> <br> Riddles</span>
+                                            <small> <em id="AttemptNum">1 <sup>st</sup></em> Attempt</small>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="score-overview">
+                                    <div class="score-titles">
+                                        <ul>
+                                            <li>Overall Score</li>
+                                            <li>Riddle Type</li>
+                                            <li> Score</li>
+                                        </ul>
+                                    </div>
+                                    <div class="scores-section" id="ScoresSection">
+                                        <div class="attempt-number">
+                                            First Attempt Complete
+                                            <span>4/5 Completed</span>
+                                        </div>
+                                        <div class="overall-score">0%</div>
+                                        <ul class="subject-score">
+                                            <li class="red"><span>Math</span><span>0%</span></li>
+                                            <li class="purple"><span>Reading</span><span>0%</span></li>
+                                            <li class="green"><span>Science</span><span>0%</span></li>
+                                            <li class="blue"><span>Social Studies</span><span>0%</span></li>
+                                        </ul>
+                                        <a href="#" class="review-btn">Review</a>
+                                    </div>
+
+                                </div>
+
+                                <div class="homescreen-options">
+                                    <a href="#" data-show="InformationScreen">Important Information</a>
+                                    <div class="homescreen-btns">
+                                        <a href="#" data-show="ScoresScreen" class="btn-blue">Scores</a>
+                                        <a href="#" data-show="SettingsScreen" class="btn-purple">Settings</a>
+                                        <!--<a href="#" data-show="CloseScreen" class="btn-red">Close</a>-->
+                                    </div>
+                                    <a href="#" data-show="LicenseScreen" class="licence-btn">License Agreement</a>
+                                </div>
+
+                            </div>
+
+                            <div id="RestartScreen" class="panel">
+                                <div class="restart-panel-content">
+                                    <h3>
+                                        <span>You will lose all data if you select restart.</span>
+                                        <span>Are you sure you’d like to proceed?</span>
+                                    </h3>
+                                    <h3>
+                                        <span>Select Back to return to the Main Menu</span>
+                                        <span>or Restart to clear all user data.</span>
+                                    </h3>
+                                </div>
+                                <div class="close-btn-set">
+                                    <a href="#" id="ResetBtn" data-show="HomeScreen" class="btn-red">Restart</a>
+                                    <a href="#" data-rel="back" class="btn-blue"> &lt;  &lt; Back</a>
+                                </div>
+                            </div>
+
+                            <div id="ScoresScreen" class="panel">
+                                <h3 class="heading">Scores</h3>
+                                <div class="score-board" id="ScoresBoard">
+                                    <div class="score-heading">
+                                        <ul class="scores">
+                                            <li>Attempt</li>
+                                            <li>Status</li>
+                                            <li>Score</li>
+                                            <li class="red">Math</li>
+                                            <li class="purple">Reading</li>
+                                            <li class="green">Science</li>
+                                            <li class="blue">Social Studies</li>
+                                            <li>Overall</li>
+                                        </ul>
+                                    </div>
+                                    <ul class="scores">
+                                        <li>First</li>
+                                        <li>Complete</li>
+                                        <li>50%</li>
+                                        <li class="red"><span>0/1</span><span>0%</span></li>
+                                        <li class="purple"><span>0/1</span><span>0%</span></li>
+                                        <li class="green"><span>0/1</span><span>0%</span></li>
+                                        <li class="blue"><span>0/1</span><span>0%</span></li>
+                                        <li>0/3</li>
+                                    </ul>
+                                    <ul class="scores">
+                                        <li>Second</li>
+                                        <li>In Progress</li>
+                                        <li>0%</li>
+                                        <li class="red"><span>0/1</span><span>0%</span></li>
+                                        <li class="purple"><span>0/1</span><span>0%</span></li>
+                                        <li class="green"><span>0/1</span><span>0%</span></li>
+                                        <li class="blue"><span>0/1</span><span>0%</span></li>
+                                        <li>0/3</li>
+                                    </ul>
+                                    <ul class="scores"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+                                    <ul class="scores"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+                                    <ul class="scores"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+                                    <ul class="scores"><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+
+                                </div>
+                                <div class="scores-bottom-content">
+                                    <!--                                    <div class="additional-attempt">
+                                                                            Additional attempts available with purchase.
+                                                                        </div>-->
+                                    <div class="scores-shown">
+                                        Scores shown reflect activity since last restart.
+                                    </div>
+                                    <div class="btn-back-wrapper">
+                                        <a class="btn-back" data-rel="back" href="#">Back</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="CompletedRiddleScreen" class="panel">
+                                <div class="congrats-wrapper">
+                                    <img class="rabbit-complete" src="assets/images/rabbit-complete.png" alt="rabbit-complete" />
+                                    <a href="#" data-show="StartGameScreen" class="complete-continue"><span>continue</span></a>
+                                    <div class="congrats-text">
+                                        <span>
+                                            Congratulations!
+                                            <small>You have finished <!--the--> </small>
+                                            <small><i>Riddle Rabbit </i> <sup>TM</sup>  !
+                                                <!--demo.&nbsp;&nbsp;The full--> 
+                                            </small>
+                                            <!--<small>version has five attempts and</small>-->
+                                            <!--more than 100 riddles!</span>-->
+                                            <img class="complete-message-corner" src="assets/images/complete-message-corner.png" alt="complete-message-corner" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="InformationScreen" class="panel information-panel">
+                                <h2>Important Information</h2>
+                                <div class="info-content">
+                                    <ul>
+                                        <li>Clearing cookies in a web browser will delete all user data in <i>Riddle Rabbit</i> &trade;.  </li>
+                                        <li>Although students can entertain themselves by working independently through this software, for optimal educational value we recommend a parent or teacher work with students to find clues.  Remember, helping students find clues is not the same as helping them identify the answer.</li>
+                                    </ul>
+                                    <h3>Educational Benefit</h3>
+                                    <p>The riddles in <i>Riddle Rabbit</i> &trade;  develop thinking skills as students learn math, reading, science, and social studies.  Educational research shows preschool and primary grade children tend to try to answer questions by guessing at answers instead of using organized analysis to identify an answer.  These entertaining riddles offer parents and teachers a fun way to teach students organized analysis as they learn to identify and evaluate clues to solve each riddle.  <i>Riddle Rabbit</i>  &trade;  riddles also provide parents and teachers with opportunities to teach students many new concepts and information related to objects and different riddle topics.  </p>
+                                    <h3>Other Educational Products From The Critical Thinking Co.&trade; </h3>
+                                    <p>This series is part of a collection of products developed by The Critical Thinking Co.&trade;  to teach preschool academics. &nbsp;To see the complete line of products, visit The Critical Thinking Co.&trade;  website at this link:  <a href="http://www.criticalthinking.com/preschool-academics" target="blank">www.CriticalThinking.com/preschool-academics</a>.</p>
+                                    <div class="credits-wrapper">
+                                        <h3>Credits</h3>
+                                        <div class="desc">
+                                            <span>Written by</span>
+                                            <small>Michael Baker &nbsp; Cheryl Block</small>
+                                        </div>
+                                        <div class="desc">
+                                            <span>Software Created by</span>
+                                            <small>Terry McDonald</small>
+                                        </div>
+                                        <div class="desc">
+                                            <span>Software Edited by</span>
+                                            <small>Sarah Rigney</small>
+                                        </div>
+                                        <div class="desc">
+                                            <span>Graphic Design by</span>
+                                            <small>Scott Slyter</small>
+                                        </div>
+                                        <div class="desc">
+                                            <span>Audio by</span>
+                                            <small>Julianna Seldon</small>
+                                        </div>
+                                        <div class="desc">
+                                            <small>ISBN 978-1-60144-648-0</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-back-wrapper">
+                                    <ul class="copyright">
+                                        <li> &copy; 2014 The Critical Thinking Co.&trade;</li>
+                                        <li><a href="http://www.criticalthinking.com" target="blank">www.CriticalThinking.com</a></li>
+                                        <li>800-458-4849</li>
+                                    </ul>
+                                    <a href="#" data-rel="back" class="btn-back">Back</a>
+                                </div>
+                            </div>
+
+                            <div id="LicenseScreen" class="panel information-panel">
+                                <h2>License Agreement</h2>
+                                <div class="info-content only-para">
+                                    <p style="text-transform: uppercase;">The Critical Thinking Co.&trade; <br> Software License Agreement</p>
+                                    <p style="text-transform: uppercase;">Important-read carefully</p>
+                                    <p>This is a legal agreement between you (a single entity, company, or educational institution) and The Critical Thinking Co.&trade; for the software accompanying this agreement, which includes computer Software and associated Documentation. &nbsp;By installing this Software on a computer, you agree to be bound by the terms of this agreement. &nbsp;If you do not agree to the terms of this agreement, promptly erase all copies of the software in your possession and return any Software packaging associated with this order within sixty (60) days of purchase to the place from which you obtained it for a full refund.</p>
+                                    <p>The Critical Thinking Co.&trade; hereby grants to you a non-exclusive license to use the software product identified above (the "Software") and the accompanying printed materials and User Manual (the "Documentation") on the terms set forth below.</p>
+                                    <p>1. &nbsp;GRANT OF LICENSE. &nbsp; The Critical Thinking Co.&trade; grants you the right to install and use this Software Product, provided that this software will be installed only in the quantity and for the computer system(s) indicated (home-use or school/institution-use) at the time of your order for the Software. 
+                                        <br>a. &nbsp;  Home-use Licensees may only use the Licensed Software for personal, non-commercial, and non-government purposes. 
+                                        <br>b. &nbsp;  School/Institution Licensees may only use the Licensed Software as a teaching aid or in connection with students' course work within the educational facility. &nbsp;If your company or educational institution consists of more than one non-contiguous physical location, then a separate license is required for each separate location. &nbsp;If you have acquired a multiple-user license, you may make the number of additional copies of the Software authorized on the packaging of this Software only.</p>
+                                    <p>2. &nbsp;COPYRIGHT. &nbsp; The Software Product and Documentation are protected by copyright laws and international copyright treaties as well as other intellectual property laws and treaties. &nbsp;Therefore, you must treat the Software Product like any other copyrighted material.&nbsp; You may not remove, modify, or alter any of The Critical Thinking Co.&trade;'s copyright or trademark notices from any part originally contained in or otherwise created by the Software Product, including any notices contained in the Documentation.</p>
+                                    <p>3. &nbsp;RESTRICTIONS. &nbsp; You may not modify, translate, reverse engineer, decompile, disassemble, or create derivative works based on the Software, or any portion thereof.&nbsp; The Software Product is licensed as a single product. &nbsp;This Software Product can be installed on a computer as a whole and shall not be separated in parts or disassembled to parts or pieces. &nbsp;You may not rent, lease, or lend the Software or Documentation to any other party without the written permission of The Critical Thinking Co.&trade;  The License is in effect until terminated. &nbsp;The License will terminate automatically if you fail to comply with the limitations described herein.&nbsp; On termination, you must destroy all copies of the Software and Documentation.</p>
+                                    <p>4. &nbsp;WARRANTIES. &nbsp; The Critical Thinking Co.&trade; expressly disclaims any warranty for the Software Product.&nbsp; The Software and Documentation are provided "as is" without warranty of any kind, either expressed or implied, including, without limitation, the implied warranties or merchantability, fitness for a particular purpose, or non-infringement.&nbsp; The entire risk arising out of use or performance of the Software remains with you.&nbsp; If media within this package is defective, remove the software application from your device(s) and return any software packaging associated with this order to The Critical Thinking Co.&trade; within 60 days of the date of purchase, and they will replace it at no charge. </p>
+                                    <p>5. &nbsp;NO LIABILITY FOR CONSEQUENTIAL DAMAGES. &nbsp; In no event shall The Critical Thinking Co.&trade; or its suppliers be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use this Software Product, even if The Critical Thinking Co.&trade; has been advised of the possibility of such damages.&nbsp; Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you. </p>
+                                    <p>6. &nbsp;MISCELLANEOUS. &nbsp; This Agreement represents the complete agreement concerning this license between the parties and supersedes all prior agreements and representations between them.&nbsp; This Agreement may be amended only in writing executed by both parties.&nbsp; The acceptance of any purchase order placed by you is expressly made conditional on your assent to the terms set forth herein, and not those contained within your purchase order.&nbsp; If any provision of this Agreement is held to be unenforceable for any reason, such provision shall be reformed only to the extent necessary to make it enforceable and the remainder of this Agreement shall nonetheless remain in full force and effect.&nbsp; If you acquired this product in the United States, the laws of the State of California govern this Agreement.&nbsp; If this product was acquired outside the United States, then local laws may apply.&nbsp; Should you have any questions concerning this Agreement, or if you desire to contact The Critical Thinking Co.&trade; for any reason, please write to The Critical Thinking Co.&trade;, 1991 Sherman Avenue, Suite 200, North Bend, OR, 97459, USA; send a fax to 541-756-1758; send emails to <a href="mailTo:service@criticalthinking.com">service@criticalthinking.com</a>; call 800-458-4849; or refer to The Critical Thinking Co.&trade;'s Website at <a href="http://www.CriticalThinking.com" target="blank">www.CriticalThinking.com</a>.</p>
+                                </div>
+                                <div class="btn-back-wrapper">
+                                    <ul class="copyright">
+                                        <li> &copy; 2014 The Critical Thinking Co.&trade;</li>
+                                        <li><a href="http://www.criticalthinking.com" target="blank">www.CriticalThinking.com</a></li>
+                                        <li>800-458-4849</li>
+                                    </ul>
+                                    <a href="#" data-rel="back" class="btn-back">Back</a>
+                                </div>
+                            </div>
+
+                            <div id="OtherProductsScreen" class="panel information-panel other-prod-panel">
+                                <h2> 
+                                    <a href="Javascript:void(0);" class="other-product-btn">
+                                        <img src="assets/images/other-product-btn.png" alt="">
+                                        <span class="other-product-btn-text">
+                                            <small>Other Products</small>
+                                        </span>
+                                    </a> 
+                                    120+ National Award-Winning Books and Software!</h2>
+                                <img class="other-product-image" src="assets/images/other-products.png" alt="other-products" />
+                                <div class="info-content only-para">
+                                    <div class="critical-thinking-logo">
+                                        <img src="assets/images/critical-thinking-logo.png" alt="Critical thinking" width="195">
+                                        <strong>The Critical Thinking Co.&trade;</strong>
+                                    </div>
+                                    <p>For more than 50 years, our fun, award-winning products have helped students of all abilities achieve better grades and higher test scores with highly effective lessons that sharpen the mind as they teach reading, writing, mathematics, science, and history. &nbsp;We do not teach through drill and memorization or teach to the tests - we empower the mind!</p>
+                                    <p>We design critical thinking into our products so students must carefully analyze what they are learning. Deeper analysis produces deeper understanding, which results in better academic performance. &nbsp;Over time, students who practice critical thinking learn to apply it throughout their education and life. </p>
+
+                                    <blockquote>
+                                        &quot;If we teach children everything we know, their knowledge is limited to ours. <br> 
+                                        &nbsp;If we teach children to think, their knowledge is limitless.&quot; <br>
+                                        <span>- Michael Baker, President</span>
+                                    </blockquote>
+
+                                    <p>The Critical Thinking Co.&trade;  is recommended by Learning® Magazine, The Well-Trained Mind, College Prep Genius, Creative Child Magazine, Dr. Toy, and used by Sylvan Learning® Centers, Club Z In-Home Tutoring, leading U.S. public schools, and gifted and talented programs in 57 countries throughout the world. </p>
+                                    <p class="center"><strong>We guarantee better grades and higher test scores or your money back.</strong></p>
+                                    <p>Children love our products and you’ll love what our products do for your child!</p>
+
+                                </div>
+                                <div class="btn-back-wrapper">
+                                    <ul class="copyright">
+                                        <li> &copy; 2014 The Critical Thinking Co.&trade;</li>
+                                        <li><a href="http://www.criticalthinking.com" target="blank">www.CriticalThinking.com</a></li>
+                                        <li>800-458-4849</li>
+                                    </ul>
+                                    <a href="#" data-rel="back" class="btn-back">Back</a>
+                                </div>
+                            </div>
+
+                            <div id="PrintInstructionsScreen" class="panel information-panel print-secren-panel">
+                                <h2> &nbsp; </h2>
+                                <div class="info-content only-para">
+                                    <h3>Printing Software Screens</h3>
+                                    <p>Our software is not designed to print worksheets, but your computer operating system does offer you some options to print these activities.  </p>
+                                    <h3>Windows®</h3>
+                                    <p>To print a screen image, use your computer’s print screen function.&nbsp; Most Windows® keyboards have a print screen button in the upper right area of the keyboard. &nbsp;If this key is not on your keyboard and you have Windows® Vista, 7, or 8, (excluding Home Basic and Starter editions), you can type ‘snip’ in your search box, located in your Start menu. &nbsp;This will bring up the Windows® Snipping Tool.  </p>
+                                    <img class="print-screen" src="assets/images/print-screen.png" alt="print-screen"/>
+                                    <h4>Print Screen button (entire screen):</h4>
+                                    <ul>
+                                        <li>Press Print Screen.</li>
+                                        <li>After capturing the image, paste it into an image editing software, such as Paint (you can type ‘paint’ in your Run or Search box located in your Start menu).  </li>
+                                        <li>Everything on your desktop will be captured and pasted into your image editing software.</li>
+                                        <li>You can then crop/edit the image to remove any extras and then print your image.</li>
+                                    </ul>
+                                    <h4>Print Screen button (active window):</h4>
+                                    <ul>
+                                        <li>Have the window you want to capture as the active window.</li>
+                                        <li>Press ALT + Print Screen at the same time.</li>
+                                        <li>After capturing the image, paste it into an image editing software, such as Paint (you can type ‘paint’ in your Run or Search box located in your Start menu).  </li>
+                                        <li>Only the contents of the active window will be captured and pasted into your image <br>editing software.</li>
+                                        <li>You can then crop/edit the image to remove any extras and then print your image.</li>
+                                    </ul>
+                                    <h4>Snipping Tool:</h4>
+                                    <ul>
+                                        <li>Launch the Snipping Tool by typing ‘snip’ into your search box.</li>
+                                        <li>When you launch the Snipping Tool, your screen will turn white and your cursor will change to a +.</li>
+                                        <li>Place the cursor at the top left of what you would like to capture.</li>
+                                        <li>Left click and drag your cursor to the bottom right corner of the image to capture and release the mouse button.</li>
+                                        <li>Your image will then be displayed in the Snipping Tool window.&nbsp; You can use the built in tools (pen and highlighter) to make notes on your image.</li>
+                                        <li>Click the disk to save the image.&nbsp; Save the image where you can find it, such as your My Pictures folder.</li>
+                                        <li>Open the image with Windows® built in image viewer or another application that can print images, such as Paint.</li>
+                                    </ul>
+                                    <h3>Mac OS® X</h3>
+                                    <p>Here are the three ways to do a print screen, or screen capture, in Mac OS® X:</p>
+                                    <h4 style="margin-top: -15px;">The simple “print screen button” capture:</h4>
+                                    <ul>
+                                        <li>Press the Apple key ⌘ + Shift + 3 at the same time.</li>
+                                        <li>You will find a capture of the screen on your desktop named ‘Picture _.’</li>
+                                        <li>Open image with software that can print images.</li>
+                                    </ul>
+                                    <h4>Capturing a selected portion of your screen:</h4>
+                                    <ul>
+                                        <li>Press the Apple key ⌘ + Shift + 4 at the same time.</li>
+                                        <li>You will see the cursor change to +.</li>
+                                        <li>Drag a box around the section you want to copy, and release the mouse.</li>
+                                        <li>You will find a capture of the screen on your desktop again entitled ‘Picture 	_.’</li>
+                                        <li>Open image with software that can print images.</li>
+                                    </ul>
+                                    <h4> Capturing from a selected application window:</h4>
+                                    <ul>
+                                        <li>Press the Apple key ⌘ + Shift + 4 at the same time.</li>
+                                        <li>You will see the cursor change to +.</li>
+                                        <li>Press the spacebar.</li>
+                                        <li>The cursor will change to a camera. &nbsp;Simply click on the window you want to be captured.</li>
+                                        <li>Again the capture of the screen will be on your desktop labeled ‘Picture _.’</li>
+                                        <li>Open image with software that can print images.</li>
+                                    </ul>
+                                </div>
+                                <div class="btn-back-wrapper">
+                                    <ul class="copyright">
+                                        <li> &copy; 2014 The Critical Thinking Co.&trade;</li>
+                                        <li><a href="http://www.criticalthinking.com" target="blank">www.CriticalThinking.com</a></li>
+                                        <li>800-458-4849</li>
+                                    </ul>
+                                    <a href="#" data-rel="back" class="btn-back">Back</a>
+                                </div>
+                            </div>
+
+                            <div id="QuestionsScreen" class="question-panel">
+                                <a href="#" data-show="StartGameScreen" class="home-btn">home-btn</a>
+                                <span class="question-subject">Math</span>
+                                <div class="question-wrapper">
+
+                                    <div class="question-holder">
+                                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                                        <div class="question">
+                                            <div class="text">
+                                                I am the number <br>
+                                                of feet on a bear, <br>
+                                                wheels on a car, <br>
+                                                and legs on chair. <br> <br>
+                                                Of the three numbers that you see, <br>
+                                                tell me now, can you find me?
+                                            </div>
+                                            <img src="assets/images/question-1.png" alt="Question image" />
+                                        </div>
+                                    </div>
+
+                                    <div class="question-holder with-image">
+                                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                                        <div class="question">
+                                            <div class="text">
+                                                I am the number <br>
+                                                of feet on a bear, <br>
+                                                wheels on a car, <br>
+                                                and legs on chair. <br> <br>
+                                                Of the three numbers that you see, <br>
+                                                tell me now, can you find me?
+                                            </div>
+                                            <img src="assets/images/question-1.png" alt="Question image" />
+                                        </div>
+                                    </div>
+
+                                    <div class="question-holder with-image big">
+                                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                                        <div class="question">
+                                            <img class="horizontal-ques-img" src="assets/images/large-question.png" alt="Question image" />
+                                            <div class="text">
+                                                I am not the first, but I am close to C.<br>
+                                                I am next to F,but I am not G.<br>
+                                                Of the letters that you see,<br>
+                                                tell me now, can you find me?<br>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="options num-2">
+                                        <a href="#"><img src="assets/images/option-1-1.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/option-1-2.png" alt="option" /></a>
+                                    </div>
+                                    <div class="options num-3">
+                                        <a href="#"><img src="assets/images/option-1-1.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/option-1-2.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/option-1-3.png" alt="option" /></a>
+                                    </div>
+                                    <div class="options num-4">
+                                        <a href="#"><img src="assets/images/option-1-3.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/option-1-1.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/option-1-2.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/option-1-3.png" alt="option" /></a>
+                                    </div>
+
+                                    <div class="options num-2 big">
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                    </div>
+                                    <div class="options num-3 big">
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                    </div>
+                                    <div class="options num-4 big">
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                        <a href="#"><img src="assets/images/large.png" alt="option" /></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div id="AnswerReviewScreen" class="question-panel review-panel">
+
+                            </div>
+
+                            <div id="ReviewScreen" class="question-panel review-panel">
+                                <a href="#" data-show="StartGameScreen" class="home-btn">home-btn</a>
+                                <span class="question-subject">Math</span>
+                                <div class="question-wrapper">
+                                    <div class="question-holder">
+                                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                                        <div class="question">
+                                            <div class="text">
+                                                I am the number <br>
+                                                of feet on a bear, <br>
+                                                wheels on a car, <br>
+                                                and legs on chair. <br> <br>
+                                                Of the three numbers that you see, <br>
+                                                tell me now, can you find me?
+                                            </div>
+                                            <img src="assets/images/question-1.png" alt="Question image" />
+                                        </div>
+                                    </div>
+
+                                    <div class="question-holder with-image">
+                                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                                        <div class="question">
+                                            <div class="text">
+                                                I am the number <br>
+                                                of feet on a bear, <br>
+                                                wheels on a car, <br>
+                                                and legs on chair. <br> <br>
+                                                Of the three numbers that you see, <br>
+                                                tell me now, can you find me?
+                                            </div>
+                                            <img src="assets/images/question-1.png" alt="Question image" />
+                                        </div>
+                                    </div>
+
+                                    <div class="question-holder with-image big">
+                                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                                        <div class="question">
+                                            <img class="horizontal-ques-img" src="assets/images/large-question.png" alt="Question image" />
+                                            <div class="text">
+                                                I am not the first, but I am close to C.<br>
+                                                I am next to F,but I am not G.<br>
+                                                Of the letters that you see,<br>
+                                                tell me now, can you find me?<br>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="options">
+                                        <div class="thumbs-up-wrapper">
+                                            <div class="thumbs-up pic-1">Thumbs Up</div>
+                                            <img src="assets/images/option-1-3.png" alt="option" />
+                                        </div>
+                                    </div>
+
+                                    <div class="options">
+                                        <div class="thumbs-up-wrapper">
+                                            <div class="thumbs-up pic-2">Thumbs Up</div>
+                                            <img src="assets/images/option-1-3.png" alt="option" />
+                                        </div>
+                                    </div>
+
+                                    <div class="options">
+                                        <div class="thumbs-up-wrapper">
+                                            <div class="thumbs-up pic-3">Thumbs Up</div>
+                                            <img src="assets/images/option-1-3.png" alt="option" />
+                                        </div>
+                                    </div>
+
+                                    <div class="options big">
+                                        <div class="thumbs-up-wrapper">
+                                            <div class="thumbs-up pic-1">Thumbs Up</div>
+                                            <img src="assets/images/large.png" alt="option" />
+                                        </div>
+                                    </div>
+
+                                    <div class="options big">
+                                        <div class="thumbs-up-wrapper">
+                                            <div class="thumbs-up pic-2">Thumbs Up</div>
+                                            <img src="assets/images/large.png" alt="option" />
+                                        </div>
+                                    </div>
+
+                                    <div class="options big">
+                                        <div class="thumbs-up-wrapper">
+                                            <div class="thumbs-up pic-3">Thumbs Up</div>
+                                            <img src="assets/images/large.png" alt="option" />
+                                        </div>
+                                    </div>
+
+                                    <div class="correct-true">
+                                        <a class="rabbit-incorrect" href="#" data-show="CompletedRiddleScreen">Incorrect Answer </a>
+                                        <a class="correct" href="#" data-show="CompletedRiddleScreen">correct Answer </a>
+                                    </div>
+
+                                    <div class="correct-false">
+                                        <a class="rabbit-incorrect" href="#" data-show="CompletedRiddleScreen">Incorrect Answer </a>
+                                        <a class="correct" href="#" data-show="CompletedRiddleScreen">correct Answer </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- all panels end here -->
+
+                        <div id="LoadingScreen" class="loading-panel"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/html" id="Question_tmpl">
+                <a href="#" data-show="StartGameScreen" class="home-btn">home-btn</a>
+                <span class="question-subject"><%=SUBJECTBYID[current_ques.subject]%></span>
+                <div class="question-wrapper">
+                    <div class="question-holder <% if(current_ques.img.length > 0){ %> with-image<%}%> <%= current_ques.questionImg %>">
+                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                        <div class="question" data-audio="data/<%=current_ques.audio%>">
+
+                            <% if(current_ques.questionImg.length == 0){ %> 
+                            <div class="text">
+                                <%=current_ques.text%>
+                            </div>
+                            <%}%>
+
+                            <% if(current_ques.img.length > 0){ %> 
+                            <img src="data/<%=current_ques.img%>" alt="Question image" class="horizontal-ques-img" />
+                            <%}%>
+
+                            <% if(current_ques.questionImg.length > 0){ %> 
+                            <div class="text">
+                                <%=current_ques.text%>
+                            </div>
+                            <%}%> 
+
+                        </div>
+
+                    </div>
+                    <div class="options num-<%=current_ques.options.length%>  <%= current_ques.answerImg %>">
+                        <% var temp_arr = shuffle(current_ques.options); $.each(temp_arr , function(ind , curr){%>
+                        <a href="#" data-id="<%=curr.id%>" data-correct="<%=curr.correct%>" data-audio="data/<%=curr.audio%>">
+                            <div class="option-image-wrapper">
+                                <div class="option-image-holder">
+                                    <img src="data/<%=curr.img%>" alt="option" />
+                                </div>
+                            </div>
+                        </a>
+                        <% }); %>
+                    </div>
+                </div>
+            </script>
+
+            <script type="text/html" id="Review_tmpl">
+                <a href="#" data-show="StartGameScreen" class="home-btn">home-btn</a>
+                <span class="question-subject"><%=SUBJECTBYID[current_ques.subject]%></span>
+                <div class="question-wrapper">
+                    <div class="question-holder <% if(current_ques.img.length > 0){ %> with-image<%}%> <%= current_ques.questionImg %>">
+                        <img class="rabbit-question" src="assets/images/rabbit-question.png" alt="rabbit-question" />
+                        <div class="question" data-audio="data/<%=current_ques.audio%>">
+                            <% if(current_ques.questionImg.length == 0){ %> 
+                            <div class="text">
+                                <%=current_ques.text%>
+                            </div>
+                            <%}%>
+
+                            <% if(current_ques.img.length > 0){ %> 
+                            <img src="data/<%=current_ques.img%>" alt="Question image" class="horizontal-ques-img" />
+                            <%}%>
+
+                            <% if(current_ques.questionImg.length > 0){ %> 
+                            <div class="text">
+                                <%=current_ques.text%>
+                            </div>
+                            <%}%>
+                        </div>
+                    </div>
+
+                    <div class="options <%= current_ques.answerImg %>">
+                        <div class="thumbs-up-wrapper">
+                            <div class="thumbs-up <%if($selected_option.data('correct')){%> pic-<%=getRandomNum(1,3)%><%}%>">Thumbs Up</div>
+                            <div class="option-image-wrapper">
+                                <div class="option-image-holder">
+                                    <img data-audio="<%if(! $selected_option.data('correct')){%> <%=$selected_option.data('audio')%><%} else{%> <%='data/Applause'%><%}%>" src="<%=$selected_option.find('img').attr('src')%>" alt="option" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="correct-<%=$selected_option.data('correct')%>">
+                        <a class="rabbit-incorrect NextQuestion" href="#">Incorrect Answer </a>
+                        <a class="correct NextQuestion" href="#">correct Answer </a>
+                    </div>
+
+                </div>
+            </script>
+
+            <script type="text/html" id="ScoresSection_tmpl">
+                <div class="attempt-number">   
+                    <%if(!attempt_in_progress && scores[0].status!=0 && !is_riddle_completed){ cur_attempt--;  }%>
+                    <%=NUMBERALPHA[cur_attempt+1]%> Attempt 
+                    <%if(!(!attempt_in_progress && scores.length==1) || is_riddle_completed) 
+                    {%> 
+                    <%=STATUS[scores[cur_attempt].status]%>
+                    <%}%>
+
+                    <% if(scores[cur_attempt].status==0) { %>
+                    <span><%=current_ques_num%>/<%=data_set.questions.length%> Completed</span>
+                    <% } else {
+                    var total = scores[cur_attempt].Sub1[1]+scores[cur_attempt].Sub2[1]+scores[cur_attempt].Sub3[1]+scores[cur_attempt].Sub4[1];
+                    %>
+                    <span><%=total%>/<%=total%> Completed</span>
+                    <%}%>
+                </div>
+                <div class="overall-score"><%=getOverallPercent(cur_attempt)%>%</div>
+                <ul class="subject-score">
+                    <li class="red"><span>Math</span><span><%=getCalculatedPercent(cur_attempt,1)%>%</span></li>
+                    <li class="purple"><span>Reading</span><span><%=getCalculatedPercent(cur_attempt,2)%>%</span></li>
+                    <li class="green"><span>Science</span><span><%=getCalculatedPercent(cur_attempt,3)%>%</span></li>
+                    <li class="blue"><span>Social Studies</span><span><%=getCalculatedPercent(cur_attempt,4)%>%</span></li>
+                </ul>
+                <%if(!attempt_in_progress && scores[0].status!=0 && !is_riddle_completed){ cur_attempt++;  }%>
+                <%if((!attempt_in_progress || cur_attempt == (ATTEMPS_NUM - 1))&& scores[0].status!=0){ %>
+                <a href="#" class="review-btn">Review</a>
+                <%}%>
+            </script>
+
+            <script type="text/html" id="Scores_tmpl">
+                <ul class="scores">
+                    <li>Second</li>
+                    <li>In Progress</li>
+                    <li>0%</li>
+                    <li class="red"><span>0/1</span><span>0%</span></li>
+                    <li class="purple"><span>0/1</span><span>0%</span></li>
+                    <li class="green"><span>0/1</span><span>0%</span></li>
+                    <li class="blue"><span>0/1</span><span>0%</span></li>
+                    <li>0/3</li>
+                </ul>
+            </script>
+
+        </body>
+    </html>

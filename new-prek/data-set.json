@@ -1,0 +1,3996 @@
+{
+    "id": "03804",
+    "demo": "",
+    "title": "PreK Thinking Skills",
+    "questions": [
+        {
+            "id": 1,
+            "text": "I drove the farthest.<br>Bill drove to the biggest house.<br>Dee stopped and gave a ride<br>to a tired little mouse.<br><br>Of the three cars that you see,<br>which one is mine, which one must it be?",
+            "audio": "01-1-3-B/01-1-3-B",
+            "img": "01-1-3-B/01 Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "01-1-3-B/01T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "01-1-3-B/01F2.png",
+                    "audio": "01-1-3-B/01F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "01-1-3-B/01F1.png",
+                    "audio": "01-1-3-B/01F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "I take off my clothes<br>and put them away.<br>Then I brush my teeth.<br>It’s the end of the day.<br><br>Of the three pictures that you see,<br>tell me what the next will be.",
+            "audio": "02-0-3-B/02-0-3-B",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "02-0-3-B/02F1.png",
+                    "audio": "02-0-3-B/02F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "02-0-3-B/02T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "02-0-3-B/02F2.png",
+                    "audio": "02-0-3-B/02F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "I do not belong<br>with these other three.<br>See how they are alike,<br>then you will find me.",
+            "audio": "03-0-4-S/03-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "03-0-4-S/03F1.png",
+                    "audio": "03-0-4-S/03F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "03-0-4-S/03F3.png",
+                    "audio": "03-0-4-S/03F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "03-0-4-S/03T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "03-0-4-S/03F2.png",
+                    "audio": "03-0-4-S/03F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "This is how many eyes you have.<br>You also have this many hands.<br>Now choose the number<br>for which this many stands.",
+            "audio": "04-0-3-M/04-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "04-0-3-M/04F2.png",
+                    "audio": "04-0-3-M/04F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "04-0-3-M/04T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "04-0-3-M/04F1.png",
+                    "audio": "04-0-3-M/04F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Look at the two letters in the tree.<br>Which letter comes next?<br>Which one must it be?",
+            "audio": "05-1-3-R/05-1-3-R",
+            "img": "05-1-3-R/05 Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "05-1-3-R/05F2.png",
+                    "audio": "05-1-3-R/05F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "05-1-3-R/05T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "05-1-3-R/05F1.png",
+                    "audio": "05-1-3-R/05F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "text": "﻿The kites in the sky<br>belong to Henry, Lou, and me.<br>If Lou’s kite is the highest,<br>do you know who we must be?<br><br>Which of these kites belongs to me?<br>Choose a kite and then you’ll see.",
+            "audio": "06-0-3-R/06-0-3-R",
+            "img": "06-0-3-R/06 Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "06-0-3-R/06F2.png",
+                    "audio": "06-0-3-R/06F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "06-0-3-R/06T1.png",
+                    "audio": "06-0-3-R/06F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "06-0-3-R/06F1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "text": "I have four legs and black stripes. <br>I’m fast and live in a herd. <br>I don’t have claws or sharp teeth, <br>and I’m not a horse or bird.  <br> <br>Of the four things that you see, <br>tell me now, can you find me?",
+            "audio": "07-0-4-S/07-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "07-0-4-S/07F1.png",
+                    "audio": "07-0-4-S/07F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "07-0-4-S/07T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "07-0-4-S/07F3.png",
+                    "audio": "07-0-4-S/07F3",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "07-0-4-S/07F2.png",
+                    "audio": "07-0-4-S/07F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "text": "I am a house among these four.<br>I have a red roof and a two-color door.<br><br>Of the four houses that you see,<br>choose the house that I must be.",
+            "audio": "08-0-4-M/08-0-4-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "08-0-4-M/08T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "08-0-4-M/08F3.png",
+                    "audio": "08-0-4-M/08F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "08-0-4-M/08F1.png",
+                    "audio": "08-0-4-M/08F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "08-0-4-M/08F2.png",
+                    "audio": "08-0-4-M/08F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "text": "Fireman, fish, and fox<br>begin with the same sound.<br>In which thing below<br>is that same sound found?",
+            "audio": "09-1-3-R/09-1-3-R",
+            "img": "09-1-3-R/09 Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "09-1-3-R/09F2.png",
+                    "audio": "09-1-3-R/09F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "09-1-3-R/09F1.png",
+                    "audio": "09-1-3-R/09F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "09-1-3-R/09T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "text": "Sometimes I am tart.<br>Sometimes I am sweet.<br>Pick me off a tree<br>for something good to eat.<br><br>Of the four things that you see,<br>tell me now, can you find me?",
+            "audio": "10-0-4-S/10-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "10-0-4-S/10T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "10-0-4-S/10F3.png",
+                    "audio": "10-0-4-S/10F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "10-0-4-S/10F2.png",
+                    "audio": "10-0-4-S/10F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "10-0-4-S/10F1.png",
+                    "audio": "10-0-4-S/10F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "text": "I do not belong<br>with these other three.<br>See how they are alike,<br>then you’ll find me.",
+            "audio": "11-0-4-B/11-0-4-B",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "11-0-4-B/11F3.png",
+                    "audio": "11-0-4-B/11F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "11-0-4-B/11F1.png",
+                    "audio": "11-0-4-B/11F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "11-0-4-B/11F2.png",
+                    "audio": "11-0-4-B/11F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "11-0-4-B/11T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "text": "Cow, cat, and camel<br>begin with the same sound.<br>In which thing below<br>is that same sound found?",
+            "audio": "12-1-3-R/12-1-3-R",
+            "img": "12-1-3-R/12Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "12-1-3-R/12F1.png",
+                    "audio": "12-1-3-R/12F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "12-1-3-R/12T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "12-1-3-R/12F2.png",
+                    "audio": "12-1-3-R/12F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "text": "A bat ate a bug.<br>A snake ate the bat.<br>A fox ate the snake<br>and a big, fat rat.<br><br>Of the four pictures that you see,<br>which shows the end of this sad story?",
+            "audio": "13-0-4-S/13-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "13-0-4-S/13F2.png",
+                    "audio": "13-0-4-S/13F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "13-0-4-S/13T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "13-0-4-S/13F1.png",
+                    "audio": "13-0-4-S/13F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "13-0-4-S/13F3.png",
+                    "audio": "13-0-4-S/13F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "text": "Think of a word<br>that rhymes with hat.<br>I am used with a ball.<br>Which thing is that?",
+            "audio": "14-1-3-R/14-1-3-R",
+            "img": "14-1-3-R/14Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "14-1-3-R/14F1.png",
+                    "audio": "14-1-3-R/14F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "14-1-3-R/14T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "14-1-3-R/14F2.png",
+                    "audio": "14-1-3-R/14F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "text": "I am the number<br>of feet on a bear,<br>wheels on a car,<br>and legs on a chair.<br><br>Of the three numbers that you see,<br>tell me now, can you find me?",
+            "audio": "15-0-3-M/15-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "15-0-3-M/15T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "15-0-3-M/15F1.png",
+                    "audio": "15-0-3-M/15F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "15-0-3-M/15F2.png",
+                    "audio": "15-0-3-M/15F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "text": "Each pair is alike.<br>They are two of a kind.<br>Look at the things below<br>for the one you must find.<br><br>Of the three things that you see,<br>tell me now, can you find me?",
+            "audio": "16-1-3-B/16-1-3-B",
+            "img": "16-1-3-B/16Art.png",
+            "questionImg": "big",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "16-1-3-B/16T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "16-1-3-B/16F2.png",
+                    "audio": "16-1-3-B/16F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "16-1-3-B/16F1.png",
+                    "audio": "16-1-3-B/16F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "text": "Think of a word<br>that rhymes with goat.<br>I can float on the water.<br>I am called a ____.",
+            "audio": "17-1-3-R/17-1-3-R",
+            "img": "17-1-3-R/17Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "17-1-3-R/17F2.png",
+                    "audio": "17-1-3-R/17F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "17-1-3-R/17F1.png",
+                    "audio": "17-1-3-R/17F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "17-1-3-R/17T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "text": "A hive is a house<br>built by a bee.<br>A nest is a house<br>built by me.<br><br>Of the four things that you see,<br>tell me now, can you find me?",
+            "audio": "18-1-4-S/18-1-4-S",
+            "img": "18-1-4-S/18Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "18-1-4-S/18T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "18-1-4-S/18F3.png",
+                    "audio": "18-1-4-S/18F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "18-1-4-S/18F1.png",
+                    "audio": "18-1-4-S/18F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "18-1-4-S/18F2.png",
+                    "audio": "18-1-4-S/18F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "text": "For lunch I ate one hot dog,<br>then one piece of toast.<br>Next I had three cookies,<br>since I like those the most.<br><br>Of the pictures that you see,<br>which is the order of my story?",
+            "audio": "19-0-3-R/19-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "big",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "19-0-3-R/19F1.png",
+                    "audio": "19-0-3-R/19F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "19-0-3-R/19F2.png",
+                    "audio": "19-0-3-R/19F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "19-0-3-R/19T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "text": "There is one of me<br>on each side of your head.<br>I hear sounds of music<br>and words that are said.<br><br>Of the four things that you see,<br>tell me now, can you find me?",
+            "audio": "20-0-4-S/20-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "20-0-4-S/20F3.png",
+                    "audio": "20-0-4-S/20F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "20-0-4-S/20T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "20-0-4-S/20F1.png",
+                    "audio": "20-0-4-S/20F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "20-0-4-S/20F2.png",
+                    "audio": "20-0-4-S/20F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "text": "D makes the first sound in dog.<br>D makes the first sound in deer.<br>Choose the toy below<br>where D makes the first sound you hear.",
+            "audio": "21-1-3-R/21-1-3-R",
+            "img": "21-1-3-R/21Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "21-1-3-R/21F2.png",
+                    "audio": "21-1-3-R/21F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "21-1-3-R/21F1.png",
+                    "audio": "21-1-3-R/21F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "21-1-3-R/21T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "text": "First plant a seed <br>in the dirt below. <br>Then give it water <br>so it can grow. <br> <br>What is the next thing that you’ll see? <br>Look at the pictures, which will it be?",
+            "audio": "22-0-4-S/22-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "22-0-4-S/22T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "22-0-4-S/22F2.png",
+                    "audio": "22-0-4-S/22F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "22-0-4-S/22F3.png",
+                    "audio": "22-0-4-S/22F3",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "22-0-4-S/22F1.png",
+                    "audio": "22-0-4-S/22F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "text": "H makes the first sound in horse.<br>H makes the first sound in hound.<br>Choose the thing below<br>where H is the beginning sound.",
+            "audio": "23-1-4-R/23-1-4-R",
+            "img": "23-1-4-R/23Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "23-1-4-R/23T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "23-1-4-R/23F3.png",
+                    "audio": "23-1-4-R/23F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "23-1-4-R/23F1.png",
+                    "audio": "23-1-4-R/23F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "23-1-4-R/23F2.png",
+                    "audio": "23-1-4-R/23F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "text": "I am next in the row,<br>and I have four sides.<br>I am tall in height<br>but not very wide.<br><br>Of the four shapes that you see,<br>tell me now, can you find me?",
+            "audio": "24-1-4-M/24-1-4-M",
+            "img": "24-1-4-M/24Art.png",
+            "questionImg": "big",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "24-1-4-M/24T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "24-1-4-M/24F3.png",
+                    "audio": "24-1-4-M/24F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "24-1-4-M/24F1.png",
+                    "audio": "24-1-4-M/24F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "24-1-4-M/24F2.png",
+                    "audio": "24-1-4-M/24F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "text": "I begin the words sun,<br>sing, and sew.<br>I also start the words<br>sand and snow.<br><br>Of the four letters that you see,<br>tell me now, can you find me?",
+            "audio": "25-1-3-R/25-1-3-R",
+            "img": "25-1-3-R/25Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "25-1-3-R/25F2.png",
+                    "audio": "25-1-3-R/25F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "25-1-3-R/25F1.png",
+                    "audio": "25-1-3-R/25F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "25-1-3-R/25F3.png",
+                    "audio": "25-1-3-R/25F3",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "25-1-3-R/25T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "text": "I cut two pieces<br>from the apple you see.<br>Which pieces did I cut?<br>Which ones must they be?",
+            "audio": "26-1-3-M/26-1-3-M",
+            "img": "26-1-3-M/26Art.png",
+            "questionImg": "",
+            "answerImg": "big",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "26-1-3-M/26F2.png",
+                    "audio": "26-1-3-M/26F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "26-1-3-M/26T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "26-1-3-M/26F1.png",
+                    "audio": "26-1-3-M/26F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "text": "Some of us are sour,<br>and some of us are sweet.<br>We grow on trees and plants<br>and are things that you eat.<br><br>Of the four groups that you see,<br>tell me now, can you find me?",
+            "audio": "27-0-4-S/27-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "27-0-4-S/27F2.png",
+                    "audio": "27-0-4-S/27F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "27-0-4-S/27F1.png",
+                    "audio": "27-0-4-S/27F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "27-0-4-S/27T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "27-0-4-S/27F3.png",
+                    "audio": "27-0-4-S/27F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "text": "I begin the words top,<br>table, and turkey.<br>I also start the words<br>tickle and tea.<br><br>Of the four letters that you see,<br>tell me now, can you find me?",
+            "audio": "28-0-3-R/28-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "28-0-3-R/28F3.png",
+                    "audio": "28-0-3-R/28F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "28-0-3-R/28F1.png",
+                    "audio": "28-0-3-R/28F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "28-0-3-R/28F2.png",
+                    "audio": "28-0-3-R/28F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "28-0-3-R/28T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "text": "Ann went to the store<br>and bought a kite with string,<br>then two bright pinwheels,<br>and last, a new ring.<br><br>These are the things that Ann got,<br>but in what order were they bought?",
+            "audio": "29-0-3-R/29-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "big",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "29-0-3-R/29F1.png",
+                    "audio": "29-0-3-R/29F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "29-0-3-R/29F2.png",
+                    "audio": "29-0-3-R/29F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "29-0-3-R/29T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "text": "I begin the words bed,<br>bug, and butter.<br>I also start the words<br>bank and batter.<br><br>Of the four letters that you see,<br>tell me now, can you find me?",
+            "audio": "30-1-3-R/30-1-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "30-1-3-R/30T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "30-1-3-R/30F2.png",
+                    "audio": "30-1-3-R/30F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "30-1-3-R/30F1.png",
+                    "audio": "30-1-3-R/30F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "30-1-3-R/30F3.png",
+                    "audio": "30-1-3-R/30F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "text": "I put four cookies<br>in an empty jar,<br>then gave away one<br>and lost one in the car.<br><br>Of the pictures that you see,<br>what is left in the jar for me?",
+            "audio": "31-1-3-M/31-1-3-M",
+            "img": "31-1-3-M/31Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "31-1-3-M/31F1.png",
+                    "audio": "31-1-3-M/31F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "31-1-3-M/31T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "31-1-3-M/31F2.png",
+                    "audio": "31-1-3-M/31F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "text": "I am the color<br>of strawberry tarts,<br>cranberries, cherries,<br>and Valentine hearts.<br><br>Of the four color words that you see,<br>tell me now, can you find me?",
+            "audio": "32-0-4-R/32-0-4-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "big",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "32-0-4-R/32F2.png",
+                    "audio": "32-0-4-R/32F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "32-0-4-R/32T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "32-0-4-R/32F1.png",
+                    "audio": "32-0-4-R/32F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "32-0-4-R/32F3.png",
+                    "audio": "32-0-4-R/32F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "text": "I do not belong<br>with these other three.<br>See how they are alike,<br>then you will find me.",
+            "audio": "33-0-4-S/33-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "33-0-4-S/33F2.png",
+                    "audio": "33-0-4-S/33F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "33-0-4-S/33F3.png",
+                    "audio": "33-0-4-S/33F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "33-0-4-S/33T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "33-0-4-S/33F1.png",
+                    "audio": "33-0-4-S/33F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "text": "I can protect you<br>when something is hot.<br>Use me when cooking<br>to hold a hot pot.<br><br>Of the four things that you see,<br>tell me now, can you find me?",
+            "audio": "34-0-4-B/34-0-4-B",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "34-0-4-B/34F3.png",
+                    "audio": "34-0-4-B/34F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "34-0-4-B/34F1.png",
+                    "audio": "34-0-4-B/34F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "34-0-4-B/34T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "34-0-4-B/34F2.png",
+                    "audio": "34-0-4-B/34F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "text": "Look at each animal below.<br>One name begins with C.<br>Sound out each of the names,<br>then tell me which one it must be.",
+            "audio": "35-0-3-R/35-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "35-0-3-R/35F1.png",
+                    "audio": "35-0-3-R/35F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "35-0-3-R/35F2.png",
+                    "audio": "35-0-3-R/35F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "35-0-3-R/35T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "text": "I can tell if something<br>smells spicy or sweet;<br>like roses in the garden<br>or hot pizza to eat.<br><br>Of the four things that you see,<br>tell me now, can you find me?",
+            "audio": "36-0-4-S/36-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "36-0-4-S/36T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "36-0-4-S/36F1.png",
+                    "audio": "36-0-4-S/36F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "36-0-4-S/36F2.png",
+                    "audio": "36-0-4-S/36F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "36-0-4-S/36F3.png",
+                    "audio": "36-0-4-S/36F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "text": "Name each object below.<br>One name begins with L.<br>Sound out each of the names.<br>Which is it, can you tell?",
+            "audio": "37-0-3-R/37-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "37-0-3-R/37T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "37-0-3-R/37F2.png",
+                    "audio": "37-0-3-R/37F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "37-0-3-R/37F1.png",
+                    "audio": "37-0-3-R/37F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "text": "I fall from the sky <br>without making a sound. <br>When it’s cold enough, <br>I’ll stick around. <br> <br>Of the three things that you see, <br>tell me now, can you find me?",
+            "audio": "38-0-3-S/38-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "38-0-3-S/38F1.png",
+                    "audio": "38-0-3-S/38F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "38-0-3-S/38F2.png",
+                    "audio": "38-0-3-S/38F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "38-0-3-S/38T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "text": "Yesterday Ari went to the zoo, <br>and then he played in the pool. <br>Today he visits his friend Drew, <br>but tomorrow goes to school. <br> <br>These three pictures show Ari at play. <br>Which one shows what he’ll do today?",
+            "audio": "39-0-3-B/39-0-3-B",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "39-0-3-B/39F1.png",
+                    "audio": "39-0-3-B/39F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "39-0-3-B/39T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "39-0-3-B/39F2.png",
+                    "audio": "39-0-3-B/39F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "text": "Tim put on blue shoes.<br>Jan put on a red sock.<br>Tim found a brown dog.<br>Jan sat on a gray rock.<br><br>Of the pictures that you see,<br>which tells what happened in this story?",
+            "audio": "40-1-3-R/40-1-3-R",
+            "img": "40-1-3-R/40Art.png",
+            "questionImg": "",
+            "answerImg": "big",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "40-1-3-R/40F1.png",
+                    "audio": "40-1-3-R/40F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "40-1-3-R/40T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "40-1-3-R/40F2.png",
+                    "audio": "40-1-3-R/40F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "text": "I have one cow.<br>My brother has four.<br>My mom has two cows.<br>My dad has two more.<br><br>Of the groups of cows that you see,<br>which shows how many belong to me?",
+            "audio": "41-0-3-M/41-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "big",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "41-0-3-M/41F1.png",
+                    "audio": "41-0-3-M/41F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "41-0-3-M/41F2.png",
+                    "audio": "41-0-3-M/41F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "41-0-3-M/41T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "text": "On a branch sits a careless fly<br>watched by a lizard who sits nearby.<br>Below their branch is someone’s pet,<br>who hopes the lizard hasn’t seen him yet.<br><br>Of the three pictures that you see,<br>which shows what’s happening in this story?",
+            "audio": "42-0-3-R/42-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "42-0-3-R/42T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "42-0-3-R/42F1.png",
+                    "audio": "42-0-3-R/42F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "42-0-3-R/42F2.png",
+                    "audio": "42-0-3-R/42F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "text": "My number is greater than Kay’s. <br>Kay’s number is greater than Sue’s. <br>Of the numbers that you see, <br>which is mine, which one must it be?",
+            "audio": "43-0-3-M/43-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "43-0-3-M/43F2.png",
+                    "audio": "43-0-3-M/43F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "43-0-3-M/43F1.png",
+                    "audio": "43-0-3-M/43F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "43-0-3-M/43T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "text": "Tom drove the farthest.<br>I drove to the biggest house.<br>Dee stopped and gave a ride<br>to a tired little mouse.<br><br>Of the three cars that you see,<br>which one is mine, which one must it be?",
+            "audio": "44-1-3-B/44-1-3-B",
+            "img": "44-1-3-B/44Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "44-1-3-B/44F2.png",
+                    "audio": "44-1-3-B/44F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "44-1-3-B/44T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "44-1-3-B/44F1.png",
+                    "audio": "44-1-3-B/44F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "text": "I don’t have feathers. <br>I like to fly at night. <br>I don’t have a beak, <br>just a mouth and teeth to bite. <br> <br>Of the four animals that you see, <br>tell me now, can you find me?",
+            "audio": "45-0-4-S/45-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "45-0-4-S/45F3.png",
+                    "audio": "45-0-4-S/45F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "45-0-4-S/45F1.png",
+                    "audio": "45-0-4-S/45F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "45-0-4-S/45F2.png",
+                    "audio": "45-0-4-S/45F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "45-0-4-S/45T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "text": "Look at each animal below.<br>One name begins with D.<br>Sound out each of the names,<br>then tell me which one it must be.",
+            "audio": "46-0-3-R/46-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "46-0-3-R/46F2.png",
+                    "audio": "46-0-3-R/46F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "46-0-3-R/46T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "46-0-3-R/46F1.png",
+                    "audio": "46-0-3-R/46F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "text": "I carry my house <br>wherever I go. <br>It’s good protection, <br>since I’m a little slow. <br> <br>Of the four things that you see, <br>tell me now, can you find me?",
+            "audio": "47-0-4-S/47-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "47-0-4-S/47F3.png",
+                    "audio": "47-0-4-S/47F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "47-0-4-S/47T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "47-0-4-S/47F2.png",
+                    "audio": "47-0-4-S/47F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "47-0-4-S/47F1.png",
+                    "audio": "47-0-4-S/47F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "text": "My glass is empty,<br>and the broccoli is hot.<br>My plate is full,<br>and I am going to eat a lot.<br><br>Of the three pictures that you see,<br>tell me now, can you find me?",
+            "audio": "48-0-3-B/48-0-3-B",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "48-0-3-B/48F1.png",
+                    "audio": "48-0-3-B/48F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "48-0-3-B/48F2.png",
+                    "audio": "48-0-3-B/48F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "48-0-3-B/48T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "text": "Some animals walk<br>and some leap high.<br>Some animals swim<br>and some can fly.<br><br>Think about how I move along.<br>Then choose the square where I belong",
+            "audio": "49-1-3-S/49-1-3-S",
+            "img": "49-1-3-S/49Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "49-1-3-S/49T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "49-1-3-S/49F2.png",
+                    "audio": "49-1-3-S/49F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "49-1-3-S/49F1.png",
+                    "audio": "49-1-3-S/49F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "text": "A is the first letter in apple.<br>N is the first letter in nose.<br>Look at the objects here,<br>and tell me the first letter of those.<br>",
+            "audio": "50-1-3-R/50-1-3-R",
+            "img": "50-1-3-R/50Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "50-1-3-R/50F1.png",
+                    "audio": "50-1-3-R/50F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "50-1-3-R/50F2.png",
+                    "audio": "50-1-3-R/50F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "50-1-3-R/50T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "text": "Mom needed three eggs <br>to bake a cake. <br>How can she carry them <br>so they won’t break?",
+            "audio": "51-0-3-M/51-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "51-0-3-M/51T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "51-0-3-M/51F2.png",
+                    "audio": "51-0-3-M/51F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "51-0-3-M/51F1.png",
+                    "audio": "51-0-3-M/51F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "text": "It was late at night,<br>the full moon was bright.<br>On the cool fall breeze,<br>leaves floated from the trees.<br><br>Of the three pictures that you see,<br>which tells what happened in this story?",
+            "audio": "52-0-3-S/52-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "52-0-3-S/52F1.png",
+                    "audio": "52-0-3-S/52F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "52-0-3-S/52F2.png",
+                    "audio": "52-0-3-S/52F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "52-0-3-S/52T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "text": "A is the first letter in apple. <br>N is the first letter in nose.<br>Look at the objects here. <br>What’s the first letter in those?",
+            "audio": "53-1-3-R/53-1-3-R",
+            "img": "53-1-3-R/53Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "53-1-3-R/53F1.png",
+                    "audio": "53-1-3-R/53F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "53-1-3-R/53F2.png",
+                    "audio": "53-1-3-R/53F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "53-1-3-R/53T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "text": "When you pick a cherry, <br>how can you tell <br>if it’s sour or sweet? <br>Do you taste or smell? <br> <br>Which of these would it be? <br>Tell me now, can you find me?",
+            "audio": "54-1-4-S/54-1-4-S",
+            "img": "54-1-4-S/54Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "54-1-4-S/54T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "54-1-4-S/54F2.png",
+                    "audio": "54-1-4-S/54F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "54-1-4-S/54F3.png",
+                    "audio": "54-1-4-S/54F3",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "54-1-4-S/54F1.png",
+                    "audio": "54-1-4-S/54F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "text": "My picture has a triangle.<br>My picture has a square.<br>My picture has a circle<br>and a girl with long brown hair.<br><br>Of the three pictures that you see,<br>which picture was the one made by me?",
+            "audio": "55-0-3-M/55-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "55-0-3-M/55T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "55-0-3-M/55F2.png",
+                    "audio": "55-0-3-M/55F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "55-0-3-M/55F1.png",
+                    "audio": "55-0-3-M/55F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "text": "I am not short or tall,<br>but I am big for a cat.<br>If I am happy and smiling,<br>I am wearing a hat.<br><br>Of the four cats that you see,<br>tell me now, can you find me?",
+            "audio": "56-0-4-M/56-0-4-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "56-0-4-M/56F2.png",
+                    "audio": "56-0-4-M/56F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "56-0-4-M/56F3.png",
+                    "audio": "56-0-4-M/56F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "56-0-4-M/56F1.png",
+                    "audio": "56-0-4-M/56F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "56-0-4-M/56T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "text": "D is the first sound in dog.<br>B is the first sound in bow.<br>Look at the objects here.<br>What is the first letter in those?",
+            "audio": "57-0-3-R/57-0-3-R",
+            "img": "57-0-3-R/57Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "57-0-3-R/57T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "57-0-3-R/57F2.png",
+                    "audio": "57-0-3-R/57F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "57-0-3-R/57F1.png",
+                    "audio": "57-0-3-R/57F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "text": "First I took a big sip.<br>Then I took two.<br>My glass was almost empty<br>when I was finally through.<br><br>Of the four glasses that you see,<br>which glass is the one that belongs to me?",
+            "audio": "58-0-4-M/58-0-4-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "58-0-4-M/58F1.png",
+                    "audio": "58-0-4-M/58F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "58-0-4-M/58F3.png",
+                    "audio": "58-0-4-M/58F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "58-0-4-M/58T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "58-0-4-M/58F2.png",
+                    "audio": "58-0-4-M/58F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "text": "I stay where I am.<br>I have no feet.<br>I need the sun<br>to make what I eat.<br><br>Of the three things that you see,<br>tell me now, can you find me?",
+            "audio": "59-0-3-S/59-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "59-0-3-S/59T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "59-0-3-S/59F1.png",
+                    "audio": "59-0-3-S/59F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "59-0-3-S/59F2.png",
+                    "audio": "59-0-3-S/59F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "text": "The big gray clouds were coming our way.<br>It was getting dark in the middle of the day.<br>Mom closed all the windows and brought us all in.<br>She told us a shower was about to begin.<br><br>Of the four pictures that you see,<br>what will happen next in this story?",
+            "audio": "60-0-4-R/60-0-4-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "60-0-4-R/60F2.png",
+                    "audio": "60-0-4-R/60F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "60-0-4-R/60F3.png",
+                    "audio": "60-0-4-R/60F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "60-0-4-R/60F1.png",
+                    "audio": "60-0-4-R/60F1",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "60-0-4-R/60T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "text": "On the outside<br>I am hard and tough.<br>On the inside<br>I am soft, not rough.<br><br>Of the three pictures that you see,<br>tell me now, can you find me?",
+            "audio": "61-0-3-S/61-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "61-0-3-S/61F1.png",
+                    "audio": "61-0-3-S/61F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "61-0-3-S/61F2.png",
+                    "audio": "61-0-3-S/61F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "61-0-3-S/61T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "text": "Look at the two letters in the tree.<br>Which letter comes next?<br>Which one must it be?",
+            "audio": "62-1-3-R/62-1-3-R",
+            "img": "62-1-3-R/62Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "62-1-3-R/62T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "62-1-3-R/62F1.png",
+                    "audio": "62-1-3-R/62F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "62-1-3-R/62F2.png",
+                    "audio": "62-1-3-R/62F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "text": "Jimmy’s new kite <br>can only fly <br>when the wind blows it <br>across the sky. <br> <br>Which of these things goes <br>only when the wind blows?",
+            "audio": "63-1-3-S/63-1-3-S",
+            "img": "63-1-3-S/63Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "63-1-3-S/63T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "63-1-3-S/63F2.png",
+                    "audio": "63-1-3-S/63F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "63-1-3-S/63F1.png",
+                    "audio": "63-1-3-S/63F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "text": "I have one hand on a string<br>that is tied to a circle.<br>I have a yellow shirt<br>tucked in pants that are purple.<br><br>Of the four people that you see,<br>tell me now, can you find me?",
+            "audio": "64-0-4-M/64-0-4-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "64-0-4-M/64F3.png",
+                    "audio": "64-0-4-M/64F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "64-0-4-M/64F2.png",
+                    "audio": "64-0-4-M/64F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "64-0-4-M/64T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "64-0-4-M/64F1.png",
+                    "audio": "64-0-4-M/64F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "text": "I like to eat insects<br>that I catch or surprise.<br>I have eight legs<br>and just as many eyes.<br><br>Of the three animals that you see,<br>tell me now, can you find me?",
+            "audio": "65-0-3-S/65-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "65-0-3-S/65F2.png",
+                    "audio": "65-0-3-S/65F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "65-0-3-S/65T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "65-0-3-S/65F1.png",
+                    "audio": "65-0-3-S/65F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "text": "Count the number of blocks<br>in each stack that is done.<br>How many do you need<br>to build the next one?<br><br>Of the three numbers that you see,<br>tell me now, can you find me?",
+            "audio": "66-1-3-M/66-1-3-M",
+            "img": "66-1-3-M/66Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "66-1-3-M/66T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "66-1-3-M/66F2.png",
+                    "audio": "66-1-3-M/66F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "66-1-3-M/66F1.png",
+                    "audio": "66-1-3-M/66F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "text": "Jay is the shortest.<br>I am the smallest.<br>Jay has four legs.<br>Bri is the tallest.<br><br>Of the three animals that you see,<br>tell me now, can you find me?",
+            "audio": "67-0-3-S/67-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "67-0-3-S/67F1.png",
+                    "audio": "67-0-3-S/67F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "67-0-3-S/67F2.png",
+                    "audio": "67-0-3-S/67F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "67-0-3-S/67T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "text": "Jamal put his food in the pattern you see. <br>Say the name of each color and end with broccoli. <br> <br>Of the foods that you see below, <br>choose the food that’s next if you think you know.",
+            "audio": "68-1-3-M/68-1-3-M",
+            "img": "68-1-3-M/68Art.png",
+            "questionImg": "big",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "68-1-3-M/68F2.png",
+                    "audio": "68-1-3-M/68F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "68-1-3-M/68T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "68-1-3-M/68F1.png",
+                    "audio": "68-1-3-M/68F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "text": "In the garden<br>is where I am found.<br>I am a thing<br>that grows in the ground.<br><br>Of the three things that you see,<br>tell me now, can you find me?",
+            "audio": "69-0-4-S/69-0-4-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "69-0-4-S/69F2.png",
+                    "audio": "69-0-4-S/69F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "69-0-4-S/69T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "69-0-4-S/69F1.png",
+                    "audio": "69-0-4-S/69F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "text": "Jack has more than I do,<br>and I have more than Lee.<br><br>Of the three boys that you see,<br>tell me now, can you find me?",
+            "audio": "70-0-3-M/70-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "70-0-3-M/70F1.png",
+                    "audio": "70-0-3-M/70F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "70-0-3-M/70T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "70-0-3-M/70F2.png",
+                    "audio": "70-0-3-M/70F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "text": "Look at the two letters in the tree.<br>Which letter comes next?<br>Which one must it be?",
+            "audio": "71-1-3-R/71-1-3-R",
+            "img": "71-1-3-R/71Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "71-1-3-R/71F1.png",
+                    "audio": "71-1-3-R/71F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "71-1-3-R/71T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "71-1-3-R/71F2.png",
+                    "audio": "71-1-3-R/71F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "text": "When I’m frozen, I’m hard. <br>When it’s warm, I’m wet. <br>When you’re thirsty, I’m something <br>you’d like to get. <br> <br>Of the three things that you see, <br>tell me now, can you find me?",
+            "audio": "72-0-3-S/72-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "72-0-3-S/72F2.png",
+                    "audio": "72-0-3-S/72F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "72-0-3-S/72F1.png",
+                    "audio": "72-0-3-S/72F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "72-0-3-S/72T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "text": "I’m not on the ends of the row, <br>but I am one of four below. <br>I am next to someone in red, <br>but not the one with the curly head. <br> <br>Of the four people that you see, <br>tell me now, can you find me?",
+            "audio": "73-0-4-M/73-0-4-M",
+            "img": "73-0-4-M/73Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "73-0-4-M/73F3.png",
+                    "audio": "73-0-4-M/73F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "73-0-4-M/73F2.png",
+                    "audio": "73-0-4-M/73F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "73-0-4-M/73T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "73-0-4-M/73F1.png",
+                    "audio": "73-0-4-M/73F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "text": "Some of these are fast.<br>Some of these are slow.<br>Which is the slowest?<br>Tell me if you know.",
+            "audio": "74-0-3-S/74-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "74-0-3-S/74F1.png",
+                    "audio": "74-0-3-S/74F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "74-0-3-S/74T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "74-0-3-S/74F2.png",
+                    "audio": "74-0-3-S/74F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "text": "Look at each set of pictures.<br>See how each pair goes together.<br>Which one is best to wear<br>for this kind of weather?",
+            "audio": "75-1-3-B/75-1-3-B",
+            "img": "75-1-3-B/75Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "75-1-3-B/75F2.png",
+                    "audio": "75-1-3-B/75F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "75-1-3-B/75F1.png",
+                    "audio": "75-1-3-B/75F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "75-1-3-B/75T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "text": "Some animals live in water.<br>Some animals live underground.<br>Some live high up in trees,<br>and some in caves are found.<br><br>Look at the animal homes below,<br>then choose the one where I would go.",
+            "audio": "76-1-3-S/76-1-3-S",
+            "img": "76-1-3-S/76Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "76-1-3-S/76F2.png",
+                    "audio": "76-1-3-S/76F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "76-1-3-S/76T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "76-1-3-S/76F1.png",
+                    "audio": "76-1-3-S/76F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "text": "Think of a word<br>that rhymes with park.<br>When the sun goes down,<br>the sky becomes ____.",
+            "audio": "77-1-3-R/77-1-3-R",
+            "img": "77-1-3-R/77Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "77-1-3-R/77F2.png",
+                    "audio": "77-1-3-R/77F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "77-1-3-R/77T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "77-1-3-R/77F1.png",
+                    "audio": "77-1-3-R/77F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "text": "You must pull a wagon<br>to make it go.<br>What else do you pull<br>of these things below?",
+            "audio": "78-1-3-S/78-1-3-S",
+            "img": "78-1-3-S/78Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "78-1-3-S/78F1.png",
+                    "audio": "78-1-3-S/78F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "78-1-3-S/78F2.png",
+                    "audio": "78-1-3-S/78F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "78-1-3-S/78T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 79,
+            "text": "The top of me is green. <br>My bottom half is red. <br>If you turned me on my side, <br>I’d look like this instead. <br> <br>Of the four squares that you see, <br>tell me now, can you find me?",
+            "audio": "79-1-4-M/79-1-4-M",
+            "img": "79-1-4-M/79Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "79-1-4-M/79F1.png",
+                    "audio": "79-1-4-M/79F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "79-1-4-M/79F2.png",
+                    "audio": "79-1-4-M/79F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "79-1-4-M/79T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "79-1-4-M/79F3.png",
+                    "audio": "79-1-4-M/79F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "text": "You must push a vacuum<br>to make it go.<br>What else do you push<br>of these things below?",
+            "audio": "80-1-3-S/80-1-3-S",
+            "img": "80-1-3-S/80Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "80-1-3-S/80F1.png",
+                    "audio": "80-1-3-S/80F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "80-1-3-S/80F2.png",
+                    "audio": "80-1-3-S/80F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "80-1-3-S/80T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "text": "Think of a word <br>that rhymes with sing. <br>I’m worn on your finger. <br>I’m called a ____.",
+            "audio": "81-1-3-R/81-1-3-R",
+            "img": "81-1-3-R/81Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "81-1-3-R/81T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "81-1-3-R/81F1.png",
+                    "audio": "81-1-3-R/81F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "81-1-3-R/81F2.png",
+                    "audio": "81-1-3-R/81F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "text": "Two of these things you push to go.<br>The other you pull so it will follow.<br>What do I pull, which of these three?<br>Tell me now, can you find me?",
+            "audio": "82-1-3-S/82-1-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "82-1-3-S/82T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "82-1-3-S/82F2.png",
+                    "audio": "82-1-3-S/82F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "82-1-3-S/82F1.png",
+                    "audio": "82-1-3-S/82F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 83,
+            "text": "I am almost the tallest <br>of everything you see. <br>I’m not quick or loud <br>like these other three. <br> <br>Listen to the clues very carefully. <br>Now look at the picture, can you find me?",
+            "audio": "83-0-4-M/83-0-4-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "83-0-4-M/83F3.png",
+                    "audio": "83-0-4-M/83F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "83-0-4-M/83F1.png",
+                    "audio": "83-0-4-M/83F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "83-0-4-M/83F2.png",
+                    "audio": "83-0-4-M/83F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "83-0-4-M/83T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 84,
+            "text": "When the weather is warm<br>and these clouds you see,<br>to stay dry outside<br>wear one of these three.",
+            "audio": "84-1-3-S/84-1-3-S",
+            "img": "84-1-3-S/84Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "84-1-3-S/84F2.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "84-1-3-S/84F1.png",
+                    "audio": "84-1-3-S/84F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "84-1-3-S/84T1.png",
+                    "audio": "84-1-3-S/84F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 85,
+            "text": "Look at each pair of pictures; <br>there are always two of a kind. <br>See how each pair is alike, <br>then you’ll know what to find.",
+            "audio": "85-1-3-B/85-1-3-B",
+            "img": "85-1-3-B/85Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "85-1-3-B/85T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "85-1-3-B/85F1.png",
+                    "audio": "85-1-3-B/85F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "85-1-3-B/85F2.png",
+                    "audio": "85-1-3-B/85F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 86,
+            "text": "Kyle is the biggest.<br>Ann is the smallest.<br>Kyle is shorter.<br>Jack is taller.<br><br>All three cats are shown below.<br>Which is Jack? Do you know?",
+            "audio": "86-0-2-M/86-0-2-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "86-0-2-M/86T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "86-0-2-M/86F2.png",
+                    "audio": "86-0-2-M/86F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "86-0-2-M/86F1.png",
+                    "audio": "86-0-2-M/86F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 87,
+            "text": "Each pair is alike.<br>They are two of a kind.<br>Look at the things below<br>for the one you must find.<br><br>Of the three things that you see,<br>tell me now, can you find me?",
+            "audio": "87-1-3-S/87-1-3-S",
+            "img": "87-1-3-S/87Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "87-1-3-S/87F2.png",
+                    "audio": "87-1-3-S/87F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "87-1-3-S/87F1.png",
+                    "audio": "87-1-3-S/87F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "87-1-3-S/87T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "text": "You’ve seen it rain, snow, and blow. <br>It’s part of the weather, you probably know.  <br>Which of these can you feel and hear? <br>Choose it now, if you know, my dear.",
+            "audio": "88-0-3-S/88-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "88-0-3-S/88F1.png",
+                    "audio": "88-0-3-S/88F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "88-0-3-S/88F2.png",
+                    "audio": "88-0-3-S/88F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "88-0-3-S/88T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "text": "Nell’s ball went the highest. <br>Tim’s ball was hit very low. <br>Fred’s ball went the farthest. <br>You can see their hits below. <br> <br>Look at the balls hit by these three, <br>then tell me which ball Tim’s must be.",
+            "audio": "89-1-4-M/89-1-4-M",
+            "img": "89-1-4-M/89Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "89-1-4-M/89F1.png",
+                    "audio": "89-1-4-M/89F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "89-1-4-M/89F2.png",
+                    "audio": "89-1-4-M/89F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "89-1-4-M/89T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "text": "My outside is not round,<br>but my inside is a circle.<br>My outside is dark green,<br>but the shape inside is purple.<br><br>Of the four figures that you see,<br>tell me now, can you find me?",
+            "audio": "90-0-4-M/90-0-4-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "90-0-4-M/90F2.png",
+                    "audio": "90-0-4-M/90F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "90-0-4-M/90F1.png",
+                    "audio": "90-0-4-M/90F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "90-0-4-M/90F3.png",
+                    "audio": "90-0-4-M/90F3",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "90-0-4-M/90T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "text": "I wear a hat and special clothes.<br>I put out fires with my hose. <br>Of the four people that you see,<br>tell me now, can you find me?",
+            "audio": "91-0-4-B/91-0-4-B",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "91-0-4-B/91F3.png",
+                    "audio": "91-0-4-B/91F3",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "91-0-4-B/91F1.png",
+                    "audio": "91-0-4-B/91F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "91-0-4-B/91F2.png",
+                    "audio": "91-0-4-B/91F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "91-0-4-B/91T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "text": "These balls form a pattern. <br>Look carefully and you’ll see <br>the next group is always different. <br>What will the next group be?",
+            "audio": "92-1-3-M/92-1-3-M",
+            "img": "92-1-3-M/92Art.png",
+            "questionImg": "big",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "92-1-3-M/92F1.png",
+                    "audio": "92-1-3-M/92F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "92-1-3-M/92T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "92-1-3-M/92F2.png",
+                    "audio": "92-1-3-M/92F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 93,
+            "text": "I begin the words bat, <br>bag, and ball. <br>I also start the word <br>bear, but that’s not all. <br> <br>Of the four letters that you see, <br>tell me now, can you find me?",
+            "audio": "93-0-4-R/93-0-4-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "93-0-4-R/93T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "93-0-4-R/93F3.png",
+                    "audio": "93-0-4-R/93F3",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "93-0-4-R/93F2.png",
+                    "audio": "93-0-4-R/93F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "93-0-4-R/93F1.png",
+                    "audio": "93-0-4-R/93F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 94,
+            "text": "I am facing you,<br>then I turn around.<br>I point to the sky,<br>not at the ground.<br><br>Of the three people that you see,<br>tell me now, can you find me?",
+            "audio": "94-1-3-B/94-1-3-B",
+            "img": "94-1-3-B/94Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "94-1-3-B/94F2.png",
+                    "audio": "94-1-3-B/94F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "94-1-3-B/94T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "94-1-3-B/94F1.png",
+                    "audio": "94-1-3-B/94F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 95,
+            "text": "Some animals walk<br>and some leap high.<br>Some animals swim<br>and some can fly.<br><br>Think about how I move along.<br>Then choose the square where I belong.",
+            "audio": "95-1-3-S/95-1-3-S",
+            "img": "95-1-3-S/95Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "95-1-3-S/95F1.png",
+                    "audio": "95-1-3-S/95F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "95-1-3-S/95F2.png",
+                    "audio": "95-1-3-S/95F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "95-1-3-S/95T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "text": "These balls form a pattern. <br>Look carefully and you’ll see <br>the next group is always different. <br>What will the next group be?",
+            "audio": "96-1-3-M/96-1-3-M",
+            "img": "96-1-3-M/96Art.png",
+            "questionImg": "big",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "96-1-3-M/96T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "96-1-3-M/96F1.png",
+                    "audio": "96-1-3-M/96F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "96-1-3-M/96F2.png",
+                    "audio": "96-1-3-M/96F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 97,
+            "text": "Look at the two letters in the tree.<br>Which letter comes next?<br>Which one must it be?",
+            "audio": "97-1-3-R/97-1-3-R",
+            "img": "97-1-3-R/97Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "97-1-3-R/97F1.png",
+                    "audio": "97-1-3-R/97F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "97-1-3-R/97F2.png",
+                    "audio": "97-1-3-R/97F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "97-1-3-R/97T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 98,
+            "text": "Look at each pair of pictures.<br>They are two of a kind.<br>Now look at the things below<br>for the one you must find.<br><br>Of the three things that you see,<br>tell me now, can you find me?",
+            "audio": "98-1-3-B/98-1-3-B",
+            "img": "98-1-3-B/98Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "98-1-3-B/98T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "98-1-3-B/98F2.png",
+                    "audio": "98-1-3-B/98F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "98-1-3-B/98F1.png",
+                    "audio": "98-1-3-B/98F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "text": "Tom drove the farthest.<br>Bill drove to the biggest house.<br>I stopped and gave a ride<br>to a tired little mouse.<br><br>Of the three cars that you see,<br>which one is mine, which one must it be?",
+            "audio": "99-1-3-B/99-1-3-B",
+            "img": "99-1-3-B/99Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "99-1-3-B/99T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "99-1-3-B/99F2.png",
+                    "audio": "99-1-3-B/99F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "99-1-3-B/99F1.png",
+                    "audio": "99-1-3-B/99F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "text": "These triangles form a pattern.<br>Look carefully and you will see<br>the next group is always different.<br><br>What will the next one be?",
+            "audio": "100-1-3-M/100-1-3-M",
+            "img": "100-1-3-M/100Art.png",
+            "questionImg": "big",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "100-1-3-M/100F2.png",
+                    "audio": "100-1-3-M/100F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "100-1-3-M/100T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "100-1-3-M/100F1.png",
+                    "audio": "100-1-3-M/100F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "text": "Some animals walk<br>and some leap high.<br>Some animals swim<br>and some can fly.<br><br>Think about how I move along.<br>Then choose the square where I belong.",
+            "audio": "101-1-3-S/101-1-3-S",
+            "img": "101-1-3-S/101Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "101-1-3-S/101F2.png",
+                    "audio": "101-1-3-S/101F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "101-1-3-S/101T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "101-1-3-S/101F1.png",
+                    "audio": "101-1-3-S/101F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "text": "H makes the first sound in hat.<br>H makes the first sound in hound.<br>Choose the thing below<br>where H is the beginning sound.",
+            "audio": "102-1-3-S/102-1-3-S",
+            "img": "102-1-3-S/102Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "102-1-3-S/102T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "102-1-3-S/102F2.png",
+                    "audio": "102-1-3-S/102F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "102-1-3-S/102F1.png",
+                    "audio": "102-1-3-S/102F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "text": "Look at each pair of pictures.<br>They are two of a kind.<br>Now look at the things below<br>for the one you must find.<br><br>Of the three things that you see.<br>tell me now, can you find me?",
+            "audio": "103-1-3-B/103-1-3-B",
+            "img": "103-1-3-B/103Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "103-1-3-B/103F1.png",
+                    "audio": "103-1-3-B/103F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "103-1-3-B/103T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "103-1-3-B/103F2.png",
+                    "audio": "103-1-3-B/103F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 104,
+            "text": "Some of these are fast.<br>Some of these are slow.<br>Which is the slowest?<br>Tell me if you know.",
+            "audio": "104-0-3-S/104-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "104-0-3-S/104F2.png",
+                    "audio": "104-0-3-S/104F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "104-0-3-S/104F1.png",
+                    "audio": "104-0-3-S/104F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "104-0-3-S/104T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 105,
+            "text": "Chu is the first. <br>Then comes Gary. <br>I’m not the last. <br>I’m in front of Harry. <br> <br>Of the four boys that you see, <br>tell me now, can you find me?",
+            "audio": "105-0-4-M/105-0-4-M",
+            "img": "105-0-4-M/105Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "105-0-4-M/105F2.png",
+                    "audio": "105-0-4-M/105F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "105-0-4-M/105F1.png",
+                    "audio": "105-0-4-M/105F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "105-0-4-M/105T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "105-0-4-M/105F3.png",
+                    "audio": "105-0-4-M/105F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "text": "I begin the words sun,<br>sing, and speck.<br>I also start the word<br>song if you check.<br><br>Of the four letters that you see,<br>tell me now, can you find me?",
+            "audio": "106-0-4-R/106-0-4-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "106-0-4-R/106T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "106-0-4-R/106F1.png",
+                    "audio": "106-0-4-R/106F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "106-0-4-R/106F2.png",
+                    "audio": "106-0-4-R/106F2",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "106-0-4-R/106F3.png",
+                    "audio": "106-0-4-R/106F3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "text": "I am the part of a house<br>that keeps you dry.<br>If I am not there,<br>you are under the sky.<br><br>Of the three parts that you see,<br>tell me now, can you find me?",
+            "audio": "107-1-3-B/107-1-3-B",
+            "img": "107-1-3-B/107Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "107-1-3-B/107T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "107-1-3-B/107F2.png",
+                    "audio": "107-1-3-B/107F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "107-1-3-B/107F1.png",
+                    "audio": "107-1-3-B/107F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "text": "Some animals live in water.<br>Some animals live underground.<br>Some live high up in trees.<br>And some in caves are found.<br><br>Look at the animal homes below,<br>then choose the one where I would go.",
+            "audio": "108-1-3-B/108-1-3-B",
+            "img": "108-1-3-B/108Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "108-1-3-B/108F1.png",
+                    "audio": "108-1-3-B/108F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "108-1-3-B/108T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "108-1-3-B/108F2.png",
+                    "audio": "108-1-3-B/108F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "text": "I am missing one part.<br>You can find it below. <br>Which part will fit?<br>Choose it if you know.",
+            "audio": "109-1-3-M/109-1-3-M",
+            "img": "109-1-3-M/109Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "109-1-3-M/109F1.png",
+                    "audio": "109-1-3-M/109F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "109-1-3-M/109T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "109-1-3-M/109F2.png",
+                    "audio": "109-1-3-M/109F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 110,
+            "text": "I begin the words tall,<br>taste, and tree.<br>I also start the words<br>tiger and tea.<br><br>Of the four letters that you see,<br>tell me now, can you find me?",
+            "audio": "110-0-3-R/110-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "110-0-3-R/110F1.png",
+                    "audio": "110-0-3-R/110F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "110-0-3-R/110F2.png",
+                    "audio": "110-0-3-R/110F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "110-0-3-R/110F3.png",
+                    "audio": "110-0-3-R/110F3",
+                    "correct": false
+                },
+                {
+                    "id": 4,
+                    "text": "",
+                    "img": "110-0-3-R/110T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 111,
+            "text": "All of these are fast.<br>None of these are slow.<br>Which is the fastest?<br>Tell me if you know.",
+            "audio": "111-0-3-R/111-0-3-R",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "111-0-3-R/111F1.png",
+                    "audio": "111-0-3-R/111F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "111-0-3-R/111T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "111-0-3-R/111F2.png",
+                    "audio": "111-0-3-R/111F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 112,
+            "text": "In the garden<br>is where I am found.<br>I am a thing<br>that grows in the ground.<br><br>Of the three things that you see,<br>tell me now, can you find me?",
+            "audio": "112-0-3-S/112-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "112-0-3-S/112T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "112-0-3-S/112F2.png",
+                    "audio": "112-0-3-S/112F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "112-0-3-S/112F1.png",
+                    "audio": "112-0-3-S/112F1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "text": "I begin facing away.<br>Then I turn to face you.<br>I turn to the side.<br>Then I point at my shoe.<br><br>Of the three people that you see,<br>tell me now, can you find me?",
+            "audio": "113-1-3-B/113-1-3-B",
+            "img": "113-1-3-B/113Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub4",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "113-1-3-B/113F2.png",
+                    "audio": "113-1-3-B/113F2",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "113-1-3-B/113F1.png",
+                    "audio": "113-1-3-B/113F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "113-1-3-B/113T1.png",
+                    "audio": "",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "text": "D is the first sound in dog.<br>B is the first sound in bow. <br>Look at the objects here.<br>What is the first letter of those?",
+            "audio": "114-1-3-R/114-1-3-R",
+            "img": "114-1-3-R/114Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub2",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "114-1-3-R/114F1.png",
+                    "audio": "114-1-3-R/114F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "114-1-3-R/114T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "114-1-3-R/114F2.png",
+                    "audio": "114-1-3-R/114F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 115,
+            "text": "Some of these are fast.<br>Some of these are slow.<br>Which one is the slowest?<br>Tell me if you know.",
+            "audio": "115-0-3-S/115-0-3-S",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "115-0-3-S/115F1.png",
+                    "audio": "115-0-3-S/115F1",
+                    "correct": false
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "115-0-3-S/115T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "115-0-3-S/115F2.png",
+                    "audio": "115-0-3-S/115F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 116,
+            "text": "Some animals live in water.<br>Some animals live underground.<br>Some live high up in trees.<br>And some in caves are found.<br><br>Look at the animal homes below,<br>then choose the one where I would go.",
+            "audio": "116-1-3-S/116-1-3-S",
+            "img": "116-1-3-S/116Art.png",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub3",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "116-1-3-S/116T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "116-1-3-S/116F1.png",
+                    "audio": "116-1-3-S/116F1",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "116-1-3-S/116F2.png",
+                    "audio": "116-1-3-S/116F2",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "id": 117,
+            "text": "Bo has one less than Ned.<br>Ned has one more than two.<br><br>Here we are for you to spy.<br>Tell me now, which one am I?<br>",
+            "audio": "117-0-3-M/117-0-3-M",
+            "img": "",
+            "questionImg": "",
+            "answerImg": "",
+            "subject": "Sub1",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "",
+                    "img": "117-0-3-M/117T1.png",
+                    "audio": "",
+                    "correct": true
+                },
+                {
+                    "id": 2,
+                    "text": "",
+                    "img": "117-0-3-M/117F2.png",
+                    "audio": "117-0-3-M/117F2",
+                    "correct": false
+                },
+                {
+                    "id": 3,
+                    "text": "",
+                    "img": "117-0-3-M/117F1.png",
+                    "audio": "117-0-3-M/117F1",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
